@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .Player {
   display: flex;
@@ -22,7 +22,8 @@
 .Player-card-rightBox-song,
 .Player-card-rightBox-artist {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 4%;
 }
 
 .Player-card-rightBox-artist {
@@ -34,8 +35,21 @@
 
 }
 
+.playlist {
+  margin-top: 10%;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playlist p {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .Player-card-leftBox-image {
   width: 250px;
-  height: auto;
+  height: 250px;
   margin-left: -30%;
 }

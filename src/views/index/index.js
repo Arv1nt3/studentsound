@@ -59,7 +59,7 @@ class Index extends Component {
                 className="Index-searchBox-input"
                 onChange={ (e) => { this.setState({ song: e.target.value })}}
                 value={ this.state.song }
-                placeholder="Song"/>
+                placeholder="Zi cumetre ce melodie vrei"/>
               <a
                  className="waves-effect waves-light btn black"
                  onClick={() => { props.search( this.state.song ) }}>

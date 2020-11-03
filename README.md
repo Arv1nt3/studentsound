@@ -1,6 +1,6 @@
 # Student Sound
 
-Student Sound Website for Osut Cluj
+Student Sound Website for OSUT Cluj
 
 ### Installation
 ```sh

@@ -7,7 +7,7 @@ Student Sound Website for Osut Cluj
 
 $ npm install -g yarn
 
-$ cd studentsound-master
+$ cd studentsound-main
 
 $ yarn install
 

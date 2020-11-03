@@ -42,6 +42,7 @@ class Player extends Component {
                 <h6 className="Player-card-rightBox-song">{ props.name }</h6>
                 <h4 className="Player-card-rightBox-artist">{ props.artists[0].name }</h4>
                 <h2 className="Player-card-rightBox-artist">{ millisToMinutesAndSeconds(props.duration_ms) }</h2>
+                <h2 className="Player-card-rightBox-artist">{ props.album.name }</h2>
               </div>
             </div>
           </div>

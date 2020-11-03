@@ -59,7 +59,7 @@ export const search = ( trackName ) => {
   return ( dispatch, getState ) => {
     dispatch(startFetch());
     let track = new TrackHandler();
-    track.search( trackName, { limit: 5})
+    track.search( trackName, { limit: 5 })
       .then((trackColection) => {
         dispatch(completeFetch(trackColection))
       })

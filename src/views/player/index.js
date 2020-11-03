@@ -39,10 +39,10 @@ class Player extends Component {
                   <source src={ props.preview_url } type="audio/mp3"/>
                     Your browser does not support the audio element.
                 </audio>
-                <h6 className="Player-card-rightBox-song">{ props.name }</h6>
-                <h4 className="Player-card-rightBox-artist">{ props.artists[0].name }</h4>
-                <h2 className="Player-card-rightBox-artist">{ millisToMinutesAndSeconds(props.duration_ms) }</h2>
-                <h2 className="Player-card-rightBox-artist">{ props.album.name }</h2>
+                <h6 className="Player-card-rightBox-song">Track Title: { props.name }</h6>
+                <h4 className="Player-card-rightBox-artist">Artist: { props.artists[0].name }</h4>
+                <h2 className="Player-card-rightBox-artist">Duration: { millisToMinutesAndSeconds(props.duration_ms) }</h2>
+                <h2 className="Player-card-rightBox-artist">Album: { props.album.name }</h2>
               </div>
             </div>
           </div>

@@ -1,12 +1,15 @@
-# studentsound
+# Student Sound
+
 Student Sound Website for Osut Cluj
 
-How tu use?
+### Installation
+```sh
 
-npm install -g yarn
+$ npm install -g yarn
 
-cd studentsound
+$ cd studentsound
 
-yarn install
+$ yarn install
 
-yarn start
+$ yarn start
+```

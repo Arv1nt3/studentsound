@@ -44,7 +44,7 @@ class Player extends Component {
                 <h2 className="Player-card-rightBox-artist">Duration: { millisToMinutesAndSeconds(props.duration_ms) }</h2>
                 <h2 className="Player-card-rightBox-artist">Album: { props.album.name }</h2>
                 <a
-                 className="waves-effect waves-light btn black playlist">
+                 className="waves-effect waves-light btn green playlist">
                 <p>Add to playlist</p>
               </a>
               </div>
